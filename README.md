@@ -42,21 +42,24 @@ A comprehensive **Student Management System** built using **Django** that helps 
 
 ## 📁 Project Structure
 
+
+```text
 student-management-system/
 │
-├── manage.py
-├── requirements.txt
+├── manage.py                # Django management script
+├── requirements.txt         # Project dependencies
 ├── student_management/
-│ ├── settings.py
-│ ├── urls.py
-│ └── wsgi.py
+│   ├── settings.py          # Project settings
+│   ├── urls.py              # URL routing
+│   └── wsgi.py              # WSGI configuration
 │
-├── home_auth/ # Custom authentication app
-├── students/ # Student-related functionalities
-├── teachers/ # Teacher-related functionalities
-├── classes/ # Class & attendance management
-├── templates/ # HTML templates
-├── static/ # CSS, JS, Images
-└── db.sqlite3
+├── home_auth/               # Custom authentication app
+├── students/                # Student-related functionalities
+├── teachers/                # Teacher-related functionalities
+├── classes/                 # Class & attendance management
+├── templates/               # HTML templates
+├── static/                  # CSS, JS, Images
+└── db.sqlite3               # SQLite database
+```
 
 ---
